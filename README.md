@@ -53,7 +53,14 @@ this package defines the Entity classes, their attributes, their naming conventi
 
 ## 4- Exception
 
-this package handles the BlogApiExceptions, ResourceNotFound exceptions and G
+this package handles the implementation of the BlogApiExceptions, ResourceNotFoundExceptions and GlobalExceptionHandler
+
+## 5- Payload
+
+this package contains the DTO <data transfer objects> that is used to communicate between the server and the clients, It's a good practise and it promote security
+  
+  
+  
 
  
  
