@@ -74,11 +74,11 @@ this package contains the DTO <data transfer objects> Class that is used to comm
   
   the Repository interfaces here are
   
-  -CommentRepository
-  -PostRepository
-  -CategoryRepository
-  -RoleRepository
-  -UserRepository
+  - CommentRepository
+  - PostRepository
+  - CategoryRepository
+  - RoleRepository
+  - UserRepository
   
   These Interfaces are Injected in the ServiceImpl classes as a dependency.
   
@@ -87,10 +87,10 @@ this package contains the DTO <data transfer objects> Class that is used to comm
   
   the Service interfaces are 
   
-  -AuthService
-  -PostService
-  -CommentService
-  -CategoryService
+  - AuthService
+  - PostService
+  - CommentService
+  - CategoryService
   
   These Interfaces are Injected as a dependency in Controller classes. 
   
@@ -99,12 +99,17 @@ this package contains the DTO <data transfer objects> Class that is used to comm
   
   the ServiceImpl classes are
   
-  -AuthServiceImpl
-  -PostServiceImpl
-  -CommentServiceImpl
-  -CategoryServiceImpl
+  - AuthServiceImpl
+  - PostServiceImpl
+  - CommentServiceImpl
+  - CategoryServiceImpl
   
   ## 9 - Utils
+  this package contains classes that are helpful in the development of the RestAPIs, they contains the
+  
+  - AppConstant class : this class helps in declaring Constants
+  
+  - PassWordGeneratorEncoder Class : this class helps in generating the hashed or encoded value of rawPassword to store in the database
   
   
   
