@@ -49,7 +49,7 @@ the controllers are
   
 ## 3- Entity
 
-this package defines the Entity classes, their attributes, their naming conventions in the database and the kind of relationship they have with one another.
+this package defines the @Entity classes, their attributes, their naming conventions in the database and the kind of relationship they have with one another.
 
 ## 4- Exception
 
@@ -57,7 +57,56 @@ this package handles the implementation of the BlogApiExceptions, ResourceNotFou
 
 ## 5- Payload
 
-this package contains the DTO <data transfer objects> that is used to communicate between the server and the clients, It's a good practise and it promote security
+this package contains the DTO <data transfer objects> Class that is used to communicate between the server and the clients, It's a good practise and it promote Encapsulation, Data protection and Data Security. This package contains the
+  
+  - CategoryDTO
+  - PostDTO
+  - CommentDTO
+  - LoginDTO
+  - RegisterDTO
+  - PostResponse
+  - JwtAuthResponse
+  - Error Details
+  
+  ## 6- Repositories
+  this package contains @Repository interfaces, they are important in encapsulation of stored data, retrieval and searching of specific data in the database
+  the interfaces in this package extends JpaRepository.
+  
+  the Repository interfaces here are
+  
+  -CommentRepository
+  -PostRepository
+  -CategoryRepository
+  -RoleRepository
+  -UserRepository
+  
+  These Interfaces are Injected in the ServiceImpl classes as a dependency.
+  
+  ## 7- Service
+  this package contains the @Service Interfaces that allows the declaration of abstract businesss logic method/functionalities, the classes in ServiceImpl package     implements the methods declared in this interfaces. It also promotes Encapsulation.
+  
+  the Service interfaces are 
+  
+  -AuthService
+  -PostService
+  -CommentService
+  -CategoryService
+  
+  These Interfaces are Injected as a dependency in Controller classes. 
+  
+  ## 8 - ServiceImpl
+  the package contains classes that implements the business logic methods declared in @Service Interfaces, they contain the main business logic or functionalities     that is capabale of accessing and manipulating the database. 
+  
+  the ServiceImpl classes are
+  
+  -AuthServiceImpl
+  -PostServiceImpl
+  -CommentServiceImpl
+  -CategoryServiceImpl
+  
+  ## 9 - Utils
+  
+  
   
   
   
