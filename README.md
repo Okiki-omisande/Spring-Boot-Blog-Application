@@ -48,6 +48,11 @@ the controllers are
   this contains the CRUD logic for post
   
 ## 3- Entity
+
+this package defines the Entity classes, their attributes, their naming conventions in the database and the kind of relationship they have with one another.
+
+## 4- Exception
+
  
  
   
