@@ -53,6 +53,8 @@ this package defines the Entity classes, their attributes, their naming conventi
 
 ## 4- Exception
 
+this package handles the BlogApiExceptions, ResourceNotFound exceptions and G
+
  
  
   
